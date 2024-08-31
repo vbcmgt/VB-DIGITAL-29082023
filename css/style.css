@@ -834,10 +834,45 @@ a:hover .learn-more-arrow {
 
 
 
-.underline {
-  border-bottom: 2px solid red !important;
+/* START: CONTACT FORM CONTACT LINKS */
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.icon-link:hover {
+  color: #007bff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+.icon-link i {
+  margin-right: 5px;
+  font-size: 1.2rem;
 }
 
+/* END: CONTACT FORM CONTACT LINKS */
+
+
+
+/* START :  FOOTER: LINKS */
+.ds-footer-nav-link {
+  transition: all 0.3s ease;
+  font-weight: normal;
+  display: inline-block;
+  padding: 2px 4px;
+  margin-left: -4px;
+  transform-origin: left center;
+  text-decoration: none;
+}
+.ds-footer-nav-link:hover {
+  transform: scale(1.05);
+  font-weight: bold;
+}
+
+/* END :  FOOTER: LINKS */
 
 
 

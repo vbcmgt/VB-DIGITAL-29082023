@@ -198,7 +198,7 @@
 
 
 /* WHATS APP */
-.whats-link{
+/* .whats-link{
   z-index:100; 
 }
 
@@ -214,7 +214,7 @@
   height:43px;
   bottom:40px;
   right:40px;
-  background-color:  #05247E;
+  background-color:  #25D366;
   color:#FFF;
   border-radius:50px;
   text-align:center;
@@ -257,7 +257,74 @@ background-color:  #05247E;
       padding-left: 13px;
 
   }
+} */
+
+.whats-link {
+  z-index: 100; 
 }
+
+.whats-ballon-container { 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+  position: fixed;
+  font-size: 25px;
+  text-decoration: none;
+  width: auto;
+  height: 43px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25D366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; 
+  transition: 0.2s ease-out;      
+}
+
+.can-we-help {
+  font-size: 0px;
+  opacity: 0;
+  animation: cwh-animation 1s ease-in-out 1s forwards;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.whats-icon {
+  padding: 0px 11px;
+  text-decoration: none;
+}
+
+.whats-ballon-container:hover {
+  transform: scale(1.1);  
+  background-color: #05247E;
+}
+
+@keyframes cwh-animation {
+  from {
+    font-size: 0px;
+    opacity: 0;
+  } 
+  to {
+    font-size: 16px;
+    opacity: 1;
+    padding-left: 13px;
+  }
+}
+
+/* Hide the text on screens smaller than the large breakpoint */
+@media (max-width: 991.98px) {
+  .can-we-help {
+    display: none;
+  }
+}
+
+
+
+
+
 /* END: WHATS APP CODE */
 
 
