@@ -693,15 +693,150 @@ a:hover .learn-more-arrow {
 }
 
 
-
-
-
-
-
-
 /* END: DIGITAL MARKETING */
 
 
+
+/* START: COMPANIES SLIDER */
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 80vh;
+  background-color: #111243;
+  color: white;
+}
+.slider {
+  display: flex;
+  transition: transform 1.2s ease-in-out;
+  height: 100%;
+}
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.progress-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+.progress-bar {
+  width: 50px;
+  height: 4px;
+  background-color: white;
+  margin: 0 5px;
+  transition: background-color 0.5s ease-in-out;
+}
+.progress-bar.active {
+  background-color: #ff630f;
+}
+
+/* END: COMPANIES SLIDER */
+
+
+
+/* START: CARDS: PROJECT OUTSOURCING  */
+.card1 {
+  height: 100%;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(210, 205, 205, 0.128);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.card1:hover {
+  background-color: #111243;
+  color: white;
+  border-color: #1112436f;
+}
+.card1:hover .card-title,
+.card1:hover .card-text,
+.card1:hover .card-link {
+  color: white;
+}
+.number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #4e54c885, #8f94fba8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card1:hover .number {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-link {
+  color: #043971;
+  text-decoration: none;
+}
+.card-link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* END: CARDS: PROJECT OUTSOURCING  */
+
+
+
+
+
+
+
+/* START: CARDS: DIGITAL MARKETING */
+
+.custom-container {
+  padding: 0 15px; /* Customize padding as needed */
+}
+
+.custom-card {
+  background-color: #f8f9fa; /* Optional: Add a background color */
+  border: none; /* Removes borders */
+  box-shadow: none; /* Removes any box shadow */
+  padding: 20px; /* Add padding inside the card */
+}
+
+.custom-header {
+  font-weight: 500;
+  font-size: 1.75rem; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+.custom-body {
+  padding: 0;
+}
+
+.custom-list-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.custom-list-item i {
+  color: #007bff; /* Customize the arrow color */
+}
+
+.custom-list-item i,
+.custom-list-item span {
+  font-size: 1rem; /* Adjust the size of the icon and text */
+}
+
+
+/* END: CARDS: DIGITAL MARKETING */
+
+
+
+.underline {
+  border-bottom: 2px solid red !important;
+}
 
 
 
