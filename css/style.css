@@ -746,9 +746,9 @@ a:hover .learn-more-arrow {
 .card1 {
   height: 100%;
   transition: all 0.3s ease;
-  border: 1px solid rgba(210, 205, 205, 0.128);
+  border: 1px solid rgba(165, 149, 255, 0.152);
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
 }
 .card1:hover {
   background-color: #111243;
@@ -873,6 +873,59 @@ a:hover .learn-more-arrow {
 }
 
 /* END :  FOOTER: LINKS */
+
+
+
+
+
+/* START: DIGITAL SERVICES PAGE  */
+/* END: DIGITAL SERVICES PAGE  */
+
+/* ROTATING TEXT */
+.center-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.central-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  z-index: 1;
+}
+
+.rotating-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px; /* Adjust to fit the text */
+  height: 200px; /* Adjust to fit the text */
+  transform: translate(-50%, -50%);
+  animation: rotate 20s linear infinite;
+}
+
+.rotating-text span {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 100px; /* Adjust based on circle size */
+  font-size: 16px;
+  color: grey;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
 
 
 
