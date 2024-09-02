@@ -834,6 +834,81 @@ a:hover .learn-more-arrow {
 
 
 
+/* START: DIGITAL SERVICES: INDUSTRIES SECTION */
+
+
+.bg-container {
+  position: relative;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.industry-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.industry-card {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+}
+.industry-card:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.industry-card:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.card-content {
+  transition: transform 0.5s ease;
+}
+.industry-card:hover .card-content {
+  transform: translateY(-60px);
+}
+.additional-text {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+.industry-card:hover .additional-text {
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .industry-container {
+      flex-direction: column;
+  }
+  .industry-card:not(:last-child) {
+      border-right: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+
+/* END: DIGITAL SERVICES: INDUSTRIES SECTION */
+
+
+
+
+
+
 /* START: CONTACT FORM CONTACT LINKS */
 .icon-link {
   display: inline-flex;

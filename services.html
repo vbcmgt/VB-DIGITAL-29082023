@@ -706,7 +706,93 @@
 
 
 
+ <!-- START: BANNER  -->
 
+ <div class="container-fluid p-0" style="background-color: #111243;">
+    <div class="row">
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center p-5">
+            <h1 class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus,
+                ratione.</h1>
+            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mollitia
+                consectetur inventore, autem hic eveniet fugiat temporibus commodi expedita dicta.
+            </p>
+            <button class="btn btn-outline-light">Button</button>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center p-5">
+            <img src="/img/vbd17.png" class="img-fluid" alt="Your Image">
+        </div>
+    </div>
+</div>
+
+<!-- END: BANNER  -->
+
+
+
+
+<!-- START: INDUSTRIES -->
+
+<div class="bg-container w-100 my-5" id="bgContainer">
+    <div class="overlay"></div>
+    <div class="container-fluid h-100 p-0">
+        <h1 class="display-2 text-white position-absolute top-0 start-0 mt-4 ms-4">Industries</h1>
+        <div class="industry-container">
+            <div class="industry-card">
+                <div class="card-content">
+                    <h3 class="card-title text-white mb-5">Industry 1
+                        <span>
+                            <p>
+                            <a href="#" class="card-link text-primary">Learn More</a>
+                            </p>
+                        </span>
+                    </h3>
+                </div>
+                <p class="additional-text text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptas veritatis velit saepe optio tempore aliquam iste rerum, soluta enim!</p>
+            </div>
+            <div class="industry-card">
+                <div class="card-content">
+                    <h3 class="card-title text-white mb-5">Industry 2
+                        <span>
+                            <p>
+                            <a href="#" class="card-link text-primary">Learn More</a>
+                            </p>
+                        </span>
+                    </h3>
+                </div>
+                <p class="additional-text text-white mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea laboriosam dignissimos ratione cumque natus nemo. Ut perferendis quod neque nihil veniam aliquam illo maiores.</p>
+            </div>
+            <div class="industry-card">
+                <div class="card-content">
+                    <h3 class="card-title text-white mb-5">Industry 3
+                        <span>
+                            <p>
+                            <a href="#" class="card-link text-primary">Learn More</a>
+                            </p>
+                        </span>
+                    </h3>
+                </div>
+                <p class="additional-text text-white mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea laboriosam dignissimos ratione cumque natus nemo. Ut perferendis quod neque nihil veniam aliquam illo maiores.</p>
+            </div>
+            <div class="industry-card">
+                <div class="card-content">
+                    <h3 class="card-title text-white mb-5">Industry 4
+                        <span>
+                            <p>
+                            <a href="#" class="card-link text-primary">Learn More</a>
+                            </p>
+                        </span>
+                    </h3>
+                </div>
+                <p class="additional-text text-white mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ea laboriosam dignissimos ratione cumque natus nemo. Ut perferendis quod neque nihil veniam aliquam illo maiores.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- END: INDUSTRIES -->
 
 
 
@@ -1153,7 +1239,27 @@
 
     <!-- END: NAVBAR SCROLL EFFECT -->
 
+    <!-- START: INDUSTRIES  -->
+    <script>
+        const bgContainer = document.getElementById('bgContainer');
+        const images = [
+            'img/vbd11.jpg',
+            'img/vbd14.jpg',
+            'img/vbd15.jpg',
+            'img/vbd16.jpg'
+        ];
+        let currentImageIndex = 0;
 
+        function changeBackgroundImage() {
+            bgContainer.style.backgroundImage = `url('${images[currentImageIndex]}')`;
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+        }
+
+        changeBackgroundImage();
+        setInterval(changeBackgroundImage, 20000);
+    </script>
+
+    <!-- END: INDUSTRIES  -->
 
     <!-- END: JS CODE -->
 
