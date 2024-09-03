@@ -905,6 +905,67 @@ a:hover .learn-more-arrow {
 /* END: DIGITAL SERVICES: INDUSTRIES SECTION */
 
 
+/* START: DIGITAL SERVICE PAGE: HIRING MODELS CARDS  */
+
+.custom-card-class {
+  border: 1px solid #e0e0e0; /* Subtle light grey border */
+  border-radius: 0; /* No border radius */
+  padding: 15px; /* Padding for text */
+}
+
+.custom-icon {
+  font-size: 24px; /* Icon size */
+  color: #333;
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.custom-list-icon {
+  margin-right: 5px; /* Space between list icon and text */
+  color: #333;
+}
+
+/* END: DIGITAL SERVICE PAGE: HIRING MODELS CARDS  */
+
+
+/* START: DIGITAL SERVICES PAGE - GUIDE SECTION */
+.content-wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+.fixed-side {
+  height: 100%;
+  overflow-y: auto;
+}
+.scrollable-content {
+  height: 100%;
+  overflow-y: auto;
+}
+.title-link {
+  display: block;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+}
+.title-link.active {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+.article {
+  padding: 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+@media (max-width: 767.98px) {
+  .content-wrapper {
+      height: auto;
+      overflow: auto;
+  }
+  .fixed-side, .scrollable-content {
+      height: auto;
+      overflow: visible;
+  }
+}
+/* END: DIGITAL SERVICES PAGE - GUIDE SECTION */
+
 
 
 
