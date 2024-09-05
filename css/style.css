@@ -1,3 +1,108 @@
+.container{
+  max-width: 1240px;
+}
+.main{
+  background: rgba(0,0,0,0.5);
+}
+.navbar{
+  background: rgba(0,0,0,0.5);
+}
+.nav-link{
+  color: #fff;
+}
+.nav-link:hover{
+  color: #04237B;
+}
+.navbar.scrolled {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+  color: #04237B;
+}
+.link-fancy {
+  color: #fff !important;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.link-fancy:hover {
+  color: #04237B !important;
+}
+.vb_logo{
+  height: 48px !important;
+width: 200px !important;
+}
+.hero {
+  
+background: rgba(0,0,0,0.5);
+}
+#myVideo{
+  object-fit: cover;
+  height: 109vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+
+}
+.banner_heading{
+  
+  padding-top: 8%;
+  
+padding-left: 80px;
+}
+.display-2 {
+  font-size: 4.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.banner_heading h5{
+  color: #fff;
+}
+.banner_button{
+
+}
+.home_sec1{
+  padding-top: 80px;
+  text-align: center;
+}
+.home_sec1 h3{
+  color: #414141;
+  font-weight: 500;
+}
+
+.sec1_desc{
+  color: #414141;
+  text-align: center;
+  padding: 0px 160px;
+}
+#digitalservices h4 {
+color: #414141;
+}
+#digitalservices .poppins-light{
+color: #04237b !important;
+}
+#digitalservices btn{
+color: #fff !important;
+}
+#technologies h3{
+  color: #414141;
+  font-weight: 500;
+}
+#technologies .link-fancy{
+  color: #04237b !important;
+}
+
+
+
+
+
+
+
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -94,8 +199,8 @@ font-weight: 600;
 
 
  .hero {
-    height: 50vh;
-    margin-top: 125px !important;
+    
+    margin-top: 122px !important;
     width: 100%;
     display: flex;
     flex-direction: row;
