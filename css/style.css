@@ -928,42 +928,34 @@ a:hover .learn-more-arrow {
 
 
 /* START: DIGITAL SERVICES PAGE - GUIDE SECTION */
-.content-wrapper {
-  height: 100vh;
-  overflow: hidden;
+.section-wrapper {
+  position: relative;
 }
-.fixed-side {
-  height: 100%;
-  overflow-y: auto;
+.sidebar-container {
+  width: 25%;
 }
-.scrollable-content {
-  height: 100%;
-  overflow-y: auto;
+.sidebar {
+  width: 25%;
 }
-.title-link {
-  display: block;
-  padding: 10px;
-  color: #000;
-  text-decoration: none;
+.sidebar.fixed {
+  position: fixed;
+  top: 0;
 }
-.title-link.active {
-  background-color: #f8f9fa;
-  font-weight: bold;
-}
-.article {
-  padding: 20px;
-  border-bottom: 1px solid #dee2e6;
+.main-content {
+  width: 75%;
 }
 @media (max-width: 767.98px) {
-  .content-wrapper {
-      height: auto;
-      overflow: auto;
+  .sidebar-container, .sidebar, .main-content {
+      width: 100%;
   }
-  .fixed-side, .scrollable-content {
-      height: auto;
-      overflow: visible;
+  .sidebar.fixed {
+      position: static;
   }
 }
+
+
+
+
 /* END: DIGITAL SERVICES PAGE - GUIDE SECTION */
 
 
