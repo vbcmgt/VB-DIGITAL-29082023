@@ -851,9 +851,9 @@ a:hover .learn-more-arrow {
 .card1 {
   height: 100%;
   transition: all 0.3s ease;
-  border: 1px solid rgba(210, 205, 205, 0.128);
+  border: 1px solid rgba(165, 149, 255, 0.152);
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
 }
 .card1:hover {
   background-color: #111243;
@@ -939,6 +939,134 @@ a:hover .learn-more-arrow {
 
 
 
+/* START: DIGITAL SERVICES: INDUSTRIES SECTION */
+
+
+.bg-container {
+  position: relative;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.industry-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.industry-card {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+}
+.industry-card:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.industry-card:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.card-content {
+  transition: transform 0.5s ease;
+}
+.industry-card:hover .card-content {
+  transform: translateY(-60px);
+}
+.additional-text {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+.industry-card:hover .additional-text {
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .industry-container {
+      flex-direction: column;
+  }
+  .industry-card:not(:last-child) {
+      border-right: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+
+/* END: DIGITAL SERVICES: INDUSTRIES SECTION */
+
+
+/* START: DIGITAL SERVICE PAGE: HIRING MODELS CARDS  */
+
+.custom-card-class {
+  border: 1px solid #e0e0e0; /* Subtle light grey border */
+  border-radius: 0; /* No border radius */
+  padding: 15px; /* Padding for text */
+}
+
+.custom-icon {
+  font-size: 24px; /* Icon size */
+  color: #333;
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.custom-list-icon {
+  margin-right: 5px; /* Space between list icon and text */
+  color: #333;
+}
+
+/* END: DIGITAL SERVICE PAGE: HIRING MODELS CARDS  */
+
+
+/* START: DIGITAL SERVICES PAGE - GUIDE SECTION */
+.section-wrapper {
+  position: relative;
+}
+.sidebar-container {
+  width: 25%;
+}
+.sidebar {
+  width: 25%;
+}
+.sidebar.fixed {
+  position: fixed;
+  top: 0;
+}
+.main-content {
+  width: 75%;
+}
+@media (max-width: 767.98px) {
+  .sidebar-container, .sidebar, .main-content {
+      width: 100%;
+  }
+  .sidebar.fixed {
+      position: static;
+  }
+}
+
+
+
+
+/* END: DIGITAL SERVICES PAGE - GUIDE SECTION */
+
+
+
+
+
 /* START: CONTACT FORM CONTACT LINKS */
 .icon-link {
   display: inline-flex;
@@ -978,6 +1106,59 @@ a:hover .learn-more-arrow {
 }
 
 /* END :  FOOTER: LINKS */
+
+
+
+
+
+/* START: DIGITAL SERVICES PAGE  */
+/* END: DIGITAL SERVICES PAGE  */
+
+/* ROTATING TEXT */
+.center-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.central-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  z-index: 1;
+}
+
+.rotating-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px; /* Adjust to fit the text */
+  height: 200px; /* Adjust to fit the text */
+  transform: translate(-50%, -50%);
+  animation: rotate 20s linear infinite;
+}
+
+.rotating-text span {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 100px; /* Adjust based on circle size */
+  font-size: 16px;
+  color: grey;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
 
 
 
