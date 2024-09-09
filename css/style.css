@@ -19,7 +19,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
-  color: #04237B;
+  color: #05164d;
 }
 .link-fancy {
   color: #fff !important;
@@ -28,7 +28,7 @@
   position: relative;
 }
 .link-fancy:hover {
-  color: #04237B !important;
+  color: #05164d !important;
 }
 .vb_logo{
   height: 48px !important;
@@ -46,6 +46,7 @@ background: rgba(0,0,0,0.5);
   top: 0;
   left: 0;
   z-index: -9999;
+
 
 }
 .banner_heading{
@@ -68,6 +69,7 @@ padding-left: 80px;
 .home_sec1{
   padding-top: 80px;
   text-align: center;
+
 }
 .home_sec1 h3{
   color: #414141;
@@ -79,14 +81,21 @@ padding-left: 80px;
   text-align: center;
   padding: 0px 160px;
 }
+#digitalservices{
+ padding-bottom: 40px;
+}
 #digitalservices h4 {
 color: #414141;
 }
+
 #digitalservices .poppins-light{
-color: #04237b !important;
+color: #05164d !important;
 }
 #digitalservices btn{
 color: #fff !important;
+}
+#technologies {
+background-color: #f8f8f8;
 }
 #technologies h3{
   color: #414141;
@@ -95,6 +104,64 @@ color: #fff !important;
 #technologies .link-fancy{
   color: #04237b !important;
 }
+.home_digital_sec h3{
+  font-size: 62px;
+  padding-top: 40px;
+}
+.home_digital_sec .link-fancy{
+  color: #04237b !important;
+}
+.card-text li span svg{
+  color:#05164d;
+}
+#freequote {
+  padding-top: 60px;
+}
+.read_more{
+  color:#05164d !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+#partnerwithus .bi{
+  color:#05164d;
+}
+.bi-box-seam{
+  color:#05164d;
+}
+.bi-card-checklist{
+  color:#05164d;
+}
+.bi-window-sidebar{
+  color:#05164d;
+}
+
+#contactus{
+  background-color: #05164d;
+}
+#contactus h6{
+  color: #fff !important;
+}
+#contactus svg{
+  color: #fff;
+  width: 32px;
+}
+#contactus h4{
+  color: #fff;
+  font-size: 32px;
+}
+.whatsapp{
+  padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -345,7 +412,7 @@ font-weight: 600;
 
 .poppins-medium {
   font-family: "Poppins", sans-serif !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   font-style: normal !important;
 }
 
@@ -614,7 +681,7 @@ a:hover .learn-more-arrow {
 /* CUSTOM GLOBAL STYLES */
 
 .button-bg{
-    background-color: #05247E
+    background-color: #05164d
     !important;
     color: white;
 }
@@ -622,7 +689,7 @@ a:hover .learn-more-arrow {
     background-color: rgb(255, 255, 255) !important;
     color: #ee0202;
     font-weight: 600;
-    border: 1px #05247E
+    border: 1px #05164d
     ;
 }
 
