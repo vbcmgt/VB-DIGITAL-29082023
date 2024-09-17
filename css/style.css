@@ -1294,3 +1294,38 @@ a:hover .learn-more-arrow {
 
 
 /* END: FOOTER */
+
+
+
+/* START PAGE: PARTNER WITH US  */
+
+  .custom-bullet {
+            color: #ffc107;
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+
+
+   .service-card {
+            border-top: 2px solid #ffc107;
+            height: 100%;
+        }
+        .arrow-icon {
+            color: #ffc107;
+            font-size: 1.5rem;
+        }
+
+.tech-pill {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 20px;
+            padding: 5px 15px;
+            margin: 5px;
+            display: inline-block;
+            font-size: 0.9rem;
+        }
+        .tech-section {
+            border-top: 2px solid #ffc107;
+            padding-top: 20px;
+        }
+        /* END PAGE: PARTNER WITH US  */
