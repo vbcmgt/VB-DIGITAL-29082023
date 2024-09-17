@@ -1157,3 +1157,33 @@ a:hover .learn-more-arrow {
             padding-top: 20px;
         }
         /* END PAGE: PARTNER WITH US  */
+
+        /* START: DIGITAL MARKETING PAGE */
+        
+         .hero-section {
+            min-height: 100vh;
+            background-color: #ffffff;
+        }
+        
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+        
+
+        /* cards */
+        .stellar-card-box {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+      height: 100%;
+    }
+    .orbit-icon-style {
+      font-size: 50px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+        /* END: DIGITAL MARKETING PAGE */
