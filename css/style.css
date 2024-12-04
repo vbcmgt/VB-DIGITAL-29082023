@@ -1,3 +1,278 @@
+.container{
+  max-width: 1240px;
+}
+.main{
+  background: rgba(0,0,0,0.5);
+}
+.navbar{
+  
+}
+.nav-link{
+  color: #fff;
+}
+.nav-link:hover{
+  color: #04237B;
+}
+.navbar.scrolled {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+  color: #05164d;
+}
+.link-fancy {
+  color: #fff !important;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.link-fancy:hover {
+  color: #05164d !important;
+}
+.vb_logo{
+  height: 48px !important;
+width: 200px !important;
+}
+.hero {
+background: rgba(0,0,0,0.5);
+padding-top: 122px !important;
+height: 109vh;
+}
+#myVideo{
+  object-fit: cover;
+  height: 109vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+
+
+}
+.banner_heading{
+  
+  padding-top: 8%;
+  
+padding-left: 80px;
+}
+.display-2 {
+  font-size: 4.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.banner_heading h5{
+  color: #fff;
+}
+.banner_button{
+
+}
+.home_sec1{
+  padding-top: 80px;
+  text-align: center;
+
+}
+.home_sec1 h3{
+  color: #111243;
+  font-weight: 500;
+}
+
+.sec1_desc{
+  color: #414141;
+  text-align: center;
+  padding: 0px 160px;
+}
+#digitalservices{
+ padding-bottom: 40px;
+}
+#digitalservices h4 {
+color: #414141;
+}
+
+#digitalservices .poppins-light{
+color: #05164d !important;
+}
+#digitalservices btn{
+color: #fff !important;
+}
+#technologies {
+background-color: #f8f8f8;
+}
+#technologies h3{
+  color: #111243;
+  font-weight: 500;
+}
+#technologies .link-fancy{
+  color: #04237b !important;
+}
+.home_digital_sec h3{
+  
+  padding-top: 40px;
+   color: #111243 !important;
+   font-weight: 500;
+}
+.home_digital_sec .link-fancy{
+  color: #04237b !important;
+}
+.card-text li span svg{
+  color:#05164d;
+}
+.hire_us_sec h3{
+  color: #111243 !important;
+   font-weight: 500;
+}
+.partnerwithus h3{
+  color: #111243 !important;
+   font-weight: 500;
+}
+.projectoutsourcing h2{
+  color: #111243 !important;
+   font-weight: 500;
+}
+#freequote {
+  padding-top: 60px;
+}
+.read_more{
+  color:#05164d !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+#partnerwithus .bi{
+  color:#05164d;
+}
+.bi-box-seam{
+  color:#05164d;
+}
+.bi-card-checklist{
+  color:#05164d;
+}
+.bi-window-sidebar{
+  color:#05164d;
+}
+
+#contactus{
+  background-color: #05164d;
+}
+#contactus h6{
+  color: #fff !important;
+}
+#contactus svg{
+  color: #fff;
+  width: 32px;
+}
+#contactus h4{
+  color: #fff;
+  font-size: 32px;
+}
+.whatsapp{
+  padding-top: 40px;
+}
+
+.services{
+
+background-image: url("../img/software_development.jpg");
+background-size: cover;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+overflow-x: hidden;
+height: 100%;
+}
+.inner_banner{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    padding-top: 122px;
+}
+.services h5{
+  color: #fff;
+}
+
+.Soft_dev h1{
+  color: #111243;
+  font-weight: 500;
+}
+.hiring_model{
+  padding-top: 60px;
+  background: #f9f9f9;
+}
+.hiring_model h2{
+  color: #111243;
+  font-weight: 500;
+}
+.hiring_model h6{
+  padding-bottom: 60px;
+}
+.user_guide h3{
+  color: #111243;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.season_tabs {
+  position: relative;   
+  min-height: 1060px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.season_tab {
+  float: left;  
+  clear: both;
+  width: 370px;
+}
+.season_tab label {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    font-size: 20px;
+    vertical-align: middle;
+    position: relative;
+    left: 1px;
+    width: 380px;
+    height: 68px;
+    display: table-cell;
+    font-weight: 500;
+}
+.season_tab [type=radio] {
+  display: none;   
+}
+.season_content {
+  position: absolute;
+  top: 0;
+  left: 380px;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+ }
+.season_content span {
+  animation: 0.5s ease-out 0s 1 slideInFromTop; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 2px solid #111243;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .season_content {
+  z-index: 1;
+}
+.season_content img{
+  width: 100%;
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -94,8 +369,7 @@ font-weight: 600;
 
 
  .hero {
-    height: 50vh;
-    margin-top: 125px !important;
+  
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -240,7 +514,7 @@ font-weight: 600;
 
 .poppins-medium {
   font-family: "Poppins", sans-serif !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   font-style: normal !important;
 }
 
@@ -415,9 +689,7 @@ font-weight: 600;
       blink-caret .5s step-end infinite alternate;
   }
   
-.hero{
-  height: 90vh;
-}
+
   
 
 
@@ -509,7 +781,7 @@ a:hover .learn-more-arrow {
 /* CUSTOM GLOBAL STYLES */
 
 .button-bg{
-    background-color: #05247E
+    background-color: #05164d
     !important;
     color: white;
 }
@@ -517,7 +789,7 @@ a:hover .learn-more-arrow {
     background-color: rgb(255, 255, 255) !important;
     color: #ee0202;
     font-weight: 600;
-    border: 1px #05247E
+    border: 1px #05164d
     ;
 }
 
@@ -634,7 +906,7 @@ a:hover .learn-more-arrow {
   text-decoration: none;
 }
 .sliding-words a:hover {
-  color: rgb(255, 89, 0);
+  color: #111243 !important;
 }
 @keyframes slide {
   0% {
@@ -665,7 +937,7 @@ a:hover .learn-more-arrow {
       transition: color 0.3s ease;
   }
   .new-slider-item:hover {
-      color: orange;
+      color: #111243 !important;
   }
   @keyframes new-slide-ltr {
       0% {
